@@ -1,0 +1,18 @@
+:root {
+    --main-pink:#ec4899;
+  }
+  html{
+      scroll-behavior:smooth;
+  }
+#header-image,#footer-image{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}#section-divider{
+    border-radius: 50px;
+    border-bottom: 2px;
+    border: 2px solid var(--main-pink);    
+}
+body {
+    background-image: linear-gradient(45deg,rgb(255, 255, 255), rgb(255, 228, 233));
+  }
